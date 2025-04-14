@@ -3,6 +3,12 @@
 A web-based application designed to make data cleaning and visualization faster, smarter, and easier! This tool enables users to handle missing data, remove outliers, clean text, create visualizations, and much more — all from a user-friendly interface powered by Streamlit.
 
 ---
+## 🚀 Live Demo
+
+🌐 Check out the live app here:  
+👉 [data-analysis-app.streamlit.app](https://data-analysis-app-4vudwhmzx2uruamawrhgtc.streamlit.app)
+
+---
 
 ## ✨ Features
 
