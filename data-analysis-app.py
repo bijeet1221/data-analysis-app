@@ -33,11 +33,38 @@ LANGUAGES = {
         "download_image": "Download Image",
         "unsupported_file": "Unsupported file type",
         "error_binning": "Binning can only be applied to numeric columns.",
+    },
+    "Hindi": {
+        "title": "डेटा क्लीनिंग और विज़ुअलाइज़ेशन टूल",
+        "upload_file": "Excel या CSV फ़ाइल अपलोड करें",
+        "original_data": "मौलिक डेटा (पहली 5 पंक्तियाँ):",
+        "cleaned_data": "क्लीन किया हुआ डेटा (पहली 5 पंक्तियाँ):",
+        "data_cleaning_options": "डेटा क्लीनिंग विकल्प",
+        "fill_missing_values": "अनुपस्थित मान भरें",
+        "filling_method": "भरने की विधि",
+        "remove_duplicates": "डुप्लिकेट रिकॉर्ड निकालें",
+        "remove_outliers": "आउटलेयर हटाएं",
+        "clean_text_data": "टेक्स्ट डेटा साफ़ करें",
+        "correct_spelling": "वर्तनी सुधारें",
+        "correct_data_formats": "डेटा प्रारूप सही करें",
+        "apply_binning": "बिनिंग लागू करें",
+        "select_column_binning": "बिनिंग के लिए कॉलम चुनें",
+        "number_of_bins": "बिन्स की संख्या",
+        "visualization_options": "विज़ुअलाइज़ेशन विकल्प",
+        "histogram": "हिस्टोग्राम",
+        "select_column_histogram": "हिस्टोग्राम के लिए कॉलम चुनें",
+        "boxplot": "बॉक्सप्लॉट",
+        "select_column_boxplot": "बॉक्सप्लॉट के लिए कॉलम चुनें",
+        "correlation_heatmap": "कोरिलेशन हीटमैप",
+        "download_cleaned_data": "क्लीन किया हुआ डेटा डाउनलोड करें",
+        "download_image": "इमेज डाउनलोड करें",
+        "unsupported_file": "असमर्थित फ़ाइल प्रकार",
+        "error_binning": "बिनिंग केवल संख्यात्मक कॉलम पर लागू की जा सकती है।",
     }
 }
 
 # Language Selection
-language = st.sidebar.selectbox("Language", list(LANGUAGES.keys()))
+language = st.sidebar.selectbox("Language / भाषा", list(LANGUAGES.keys()))
 L = LANGUAGES[language]
 
 # Load Data
