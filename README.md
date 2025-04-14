@@ -30,7 +30,7 @@ A web-based application designed to make data cleaning and visualization faster,
 
 ### 🌐 Multilingual Support
 
-- Currently available in **English**.
+- Currently available in **English** and **Hindi**.
 - Users can select the language using the **sidebar dropdown**.
 - **Planned:** Support for additional languages will be added in future updates to make the tool more accessible to a wider audience.
 
